@@ -84,7 +84,27 @@ h4 {
   font-size: 18px;
 }
 
-.siterights
+.siterights {
+  text-align: center;
+  font-size: 13px;
+  background-color: #d35266;
+  height: 80px;
+}
+
+.siterights ul{
+  display: flex;
+  justify-content: center;
+}
+
+.siterights ul li {
+  list-style: none;
+  padding: 0 8px;
+  color: #383838;
+}
+
+.siterights ul li a {
+  color: #383838;
+}
 
 .customer-service p {
   color: #888;
