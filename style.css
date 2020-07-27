@@ -33,6 +33,43 @@ h4 {
   color: #888;
 }
 
+.productname {
+  padding: 0;
+  background-color: #eee;
+}
+
+.productname p {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.productname span {
+  font-size: 13px;
+  margin-bottom: 20%;
+  color: #888;
+}
+
+.productname label {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.viewmore {
+  border-radius: 22px;
+  margin-top: 2%;
+  width: 130px;
+  height: 30px;
+  background-color: #d35266;
+  margin: auto;
+}
+
+.viewmore a {
+  text-decoration: none;
+  color: #eee;
+  font-size: larger;
+  font-weight: bolder;
+}
+
 .phoneprogress span {
   display: block;
   margin-bottom: 15px;
@@ -93,6 +130,11 @@ input::placeholder {
 
 .phoneimg {
   padding: 0;
+}
+
+.progreswrap a {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .phoneprogress {
