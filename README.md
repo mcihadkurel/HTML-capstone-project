@@ -1,57 +1,31 @@
-# Project Name
+# BEST WEBSİTE
 
-> One paragraph statement about the project.
+This is a capstone project at the end of the HTML and CSS curriculum. Before this project; I used different kind of tools and resources for each HTML unit. After 2 long months I arrived to the one of the best part of being in coding training adventure. This project contains mix of last 7 projects in repository. "BEST" web is a shopping website. This website includes, products of; Mobile phone, Laptop, Computer, Television, Home Design, Jewerly, Outdoor sports.
 
-![screenshot](./app_screenshot.png)
+After few months later; this project will be real life website which sells tech products for local people in main country where I live.
 
-Additional description about the project and its features.
+
+<img src="./images/projectSS.png" alt="Screenshot">git
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Bootstrap grid system
+- Bootstrap positioning
+- Responsive media queries for all screen sizes
+- CSS grid & flexbox system
+- Semantic HTML
+- Unique HTML tags
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live](https://raw.githack.com/mcihadkurel/Newsweek-clone/newsweek-feature/index.html)
 
+👤 **Author**
 
-## Getting Started
+- Github: [@mcihadkurel](https://github.com/mcihadkurel)
+- Twitter: [@mece_ka](https://twitter.com/mece_ka)
+- LinkedIn: [@muhammed](https://www.linkedin.com/in/muhammed-cihad-8187581a8/)
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -71,4 +45,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project licensed by eattravelcode.com
