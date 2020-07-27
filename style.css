@@ -1,0 +1,143 @@
+
+header {
+  margin-top: 1%;
+}
+
+.brandimage img {
+  margin: 0 1em;
+}
+
+.navbrand {
+  display: flex;
+}
+
+.websearch input {
+  border-radius: 5px;
+  border: 2px solid #d35266;
+}
+
+.websearch a i {
+  font-size: 24px;
+  color: #eee;
+  padding: 6px 24px;
+  background-color: #d35266;
+}
+
+h4 {
+  background-color: #383838;
+  color: #eee;
+}
+
+.phoneprogress a {
+  text-decoration: none;
+  color: #888;
+}
+
+.phoneprogress span {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+.coverimg {
+  position: absolute;
+}
+
+.coverimg span {
+  font-size: 45px;
+  position: absolute;
+  bottom: 54px;
+  color: #888;
+}
+
+.coverimg span:hover {
+  color: #383838;
+}
+
+input::placeholder {
+  font-size: larger;
+  font-weight: bolder;
+  padding-left: 5px;
+}
+
+.searchbutton {
+  display: flex;
+  border-radius: 5px;
+  border: 2px solid #d35266;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.navoption ul {
+  display: flex;
+  background-color: #d35266;
+}
+
+.navoption ul li {
+  list-style: none;
+  color: white;
+  padding: 12px 16px;
+  border-right: 3px solid #eee;
+}
+
+.navoption ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+.sidebardeals ul li {
+  list-style: none;
+  margin-bottom: 1%;
+  background-color: #383838;
+}
+
+.phoneimg {
+  padding: 0;
+}
+
+.phoneprogress {
+  padding: 0;
+  margin: 0 8px;
+  background-color: #eee;
+}
+
+.phoneprogress label {
+  font-size: 13px;
+}
+
+.phoneprogress progress {
+  width: 80px;
+}
+
+.sidebardeals ul li a i {
+  font-size: 18px;
+  padding: 8px;
+  background-color: #d35266;
+  color: #eee;
+  border-radius: 50%;
+}
+
+h4 {
+  height: 38px;
+}
+
+.sidebardeals ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.searchbutton i {
+  font-size: 24px;
+  color: #d35266;
+  padding: 0 6px;
+}
+
+.brandimage img {
+  width: 128px;
+  height: 40px;
+}
+
+.websearch input {
+  width: 640px;
+  height: 42px;
+}
