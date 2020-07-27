@@ -69,11 +69,28 @@ h4 {
   font-weight: bolder;
 }
 
+.customer-service {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.customer-service i {
+  font-size: 52px;
+  text-align: center;
+  margin-top: 20px;
+}
+
 .customer-service h3 {
   font-size: 18px;
 }
 
-.customer-service 
+.siterights
+
+.customer-service p {
+  color: #888;
+  font-size: 13px;
+  padding: 0 15px;
+}
 
 .phoneprogress span {
   display: block;
