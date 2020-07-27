@@ -1,0 +1,120 @@
+
+header {
+  margin-top: 1%;
+}
+
+.navbrand {
+  display: flex;
+}
+
+.websearch input {
+  border-radius: 5px;
+  border: 2px solid #d35266;
+  width: 640px;
+  height: 42px;
+}
+
+.searchbutton i {
+  font-size: 24px;
+  color: #d35266;
+  padding: 0 6px;
+}
+
+.bestlist i {
+  margin-left: 50px;
+  margin-right: 8px;
+}
+
+.websearch a i {
+  font-size: 24px;
+  color: #eee;
+  padding: 6px 24px;
+  background-color: #d35266;
+}
+
+.colborder {
+  border: 1px solid rgba(56, 56, 56, 0.2);
+  margin-right: 25px;
+}
+
+strong {
+  color: #383838;
+  font-weight: bolder;
+}
+
+input::placeholder {
+  font-size: larger;
+  font-weight: bolder;
+  padding-left: 5px;
+}
+
+.searchbutton {
+  display: flex;
+  border-radius: 5px;
+  border: 2px solid #d35266;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.navoption ul {
+  display: flex;
+  background-color: #d35266;
+}
+
+.navoption ul li {
+  list-style: none;
+  color: white;
+  padding: 12px 16px;
+  border-right: 3px solid #eee;
+}
+
+section {
+  margin-top: 10%;
+}
+
+.dealprices a {
+  text-decoration: none;
+  background-color: #eee;
+}
+
+.navoption ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+section img {
+  padding: 12px 0;
+}
+
+.brandimage img {
+  width: 128px;
+  height: 40px;
+  margin: 0 1em;
+}
+
+.deallist {
+  display: flex;
+  justify-content: space-between;
+}
+
+section span {
+  display: block;
+  margin: 8px 0;
+  font-size: 15px;
+  color: #888;
+}
+
+.bestlist span {
+  color: #383838;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.bestlist {
+  border: 2px solid #d35266;
+}

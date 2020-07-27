@@ -3,10 +3,6 @@ header {
   margin-top: 1%;
 }
 
-.brandimage img {
-  margin: 0 1em;
-}
-
 .navbrand {
   display: flex;
 }
@@ -14,6 +10,20 @@ header {
 .websearch input {
   border-radius: 5px;
   border: 2px solid #d35266;
+  width: 640px;
+  height: 42px;
+}
+
+.searchbutton i {
+  font-size: 24px;
+  color: #d35266;
+  padding: 0 6px;
+}
+
+.customer-service i {
+  font-size: 52px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .websearch a i {
@@ -26,6 +36,7 @@ header {
 h4 {
   background-color: #383838;
   color: #eee;
+  height: 38px;
 }
 
 .phoneprogress a {
@@ -74,12 +85,6 @@ h4 {
   text-align: center;
 }
 
-.customer-service i {
-  font-size: 52px;
-  text-align: center;
-  margin-top: 20px;
-}
-
 .customer-service h3 {
   font-size: 18px;
 }
@@ -91,7 +96,7 @@ h4 {
   height: 80px;
 }
 
-.siterights ul{
+.siterights ul {
   display: flex;
   justify-content: center;
 }
@@ -100,6 +105,11 @@ h4 {
   list-style: none;
   padding: 0 8px;
   color: #383838;
+}
+
+.progreswrap a {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .siterights ul li a {
@@ -117,6 +127,7 @@ h4 {
   margin-bottom: 15px;
   font-weight: bolder;
 }
+
 .coverimg {
   position: absolute;
 }
@@ -174,11 +185,6 @@ input::placeholder {
   padding: 0;
 }
 
-.progreswrap a {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .phoneprogress {
   padding: 0;
   margin: 0 8px;
@@ -201,27 +207,13 @@ input::placeholder {
   border-radius: 50%;
 }
 
-h4 {
-  height: 38px;
-}
-
 .sidebardeals ul li a {
   text-decoration: none;
   color: white;
 }
 
-.searchbutton i {
-  font-size: 24px;
-  color: #d35266;
-  padding: 0 6px;
-}
-
 .brandimage img {
   width: 128px;
   height: 40px;
-}
-
-.websearch input {
-  width: 640px;
-  height: 42px;
+  margin: 0 1em;
 }
