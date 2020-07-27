@@ -56,7 +56,6 @@ h4 {
 
 .viewmore {
   border-radius: 22px;
-  margin-top: 2%;
   width: 130px;
   height: 30px;
   background-color: #d35266;
@@ -69,6 +68,12 @@ h4 {
   font-size: larger;
   font-weight: bolder;
 }
+
+.customer-service h3 {
+  font-size: 18px;
+}
+
+.customer-service 
 
 .phoneprogress span {
   display: block;
