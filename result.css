@@ -34,7 +34,110 @@ header {
 
 .colborder {
   border: 1px solid rgba(56, 56, 56, 0.2);
-  margin-right: 25px;
+  margin-right: 15px;
+  margin-left: 2px;
+}
+
+.viewmore {
+  border-radius: 22px;
+  width: 130px;
+  height: 30px;
+  background-color: #d35266;
+  margin: auto;
+}
+
+.viewmore a {
+  text-decoration: none;
+  color: #eee;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.specialchoise {
+  background-color: #383838;
+  width: 14%;
+  padding: 0;
+}
+
+.spantext {
+  color: #d35266;
+  font-weight: bolder;
+  margin-left: 20px ;
+}
+
+.asideborder {
+  border: 1px solid rgba(56, 56, 56, 0.2);
+}
+
+h4 {
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+  margin: 3px 0 10px 0;
+  background-color: #383838;
+  color: #eee;
+}
+
+.siterights {
+  text-align: center;
+  font-size: 13px;
+  background-color: #d35266;
+  height: 80px;
+}
+
+.siterights ul {
+  display: flex;
+  justify-content: center;
+}
+
+.siterights ul li {
+  list-style: none;
+  padding: 0 8px;
+  color: #383838;
+}
+
+.siterights ul li a {
+  color: #383838;
+}
+
+.asidepopular input::placeholder {
+  font-size: 12px;
+  padding: 7px 10px;
+}
+
+.asideinput {
+  display: flex;
+  margin-left: 5px;
+}
+
+.searchresult {
+  display: flex;
+}
+
+.foundresult {
+  font-size: 13px;
+  font-weight: bolder;
+  padding: 3px 12px;
+}
+
+.filter strong {
+ color: white;
+ background-color: #d35266;
+}
+
+.cancel {
+  display: flex;
+}
+
+.cancel i {
+  background-color: none;
+}
+
+.asidepopular span {
+  font-size: 12px;
+  margin-top: -3px;
+  margin-left: 3px;
 }
 
 strong {

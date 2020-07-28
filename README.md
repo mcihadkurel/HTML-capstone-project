@@ -1,8 +1,8 @@
 # BEST WEBSİTE
 
-This is a capstone project at the end of the HTML and CSS curriculum. Before this project; I used different kind of tools and resources for each HTML unit. After 2 long months I arrived to the one of the best part of being in coding training adventure. This project contains mix of last 7 projects in repository. "BEST" web is a shopping website. This website includes, products of; Mobile phone, Laptop, Computer, Television, Home Design, Jewerly, Outdoor sports.
+This is a capstone project at the end of the HTML and CSS curriculum. Before this project; I used different kind of tools and resources for each HTML unit. After 2 long months, I arrived to the one of the best part of being in coding training adventure. This project contains mix of last 7 projects in repository. "BEST" web is a shopping website. This website includes, products of; Mobile phone, Laptop, Computer, Television, Home Design, Jewerly, Outdoor sports.
 
-After few months later; this project will be real life website which sells tech products for local people in main country where I live.
+After few months later; this project will be real life website which sells tech products for local people in the country where I live.
 
 
 <img src="./images/projectSS.png" alt="Screenshot">git
@@ -13,6 +13,7 @@ After few months later; this project will be real life website which sells tech 
 - Bootstrap positioning
 - Responsive media queries for all screen sizes
 - CSS grid & flexbox system
+- Box model
 - Semantic HTML
 - Unique HTML tags
 
