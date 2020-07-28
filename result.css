@@ -1,4 +1,8 @@
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
   margin-top: 1%;
 }
@@ -10,8 +14,10 @@ header {
 .websearch input {
   border-radius: 5px;
   border: 2px solid #d35266;
-  width: 640px;
+  width: 665px;
   height: 42px;
+  position: relative;
+  bottom: 3px;
 }
 
 .searchbutton i {
@@ -23,19 +29,33 @@ header {
 .bestlist i {
   margin-left: 50px;
   margin-right: 8px;
+  padding: 8px;
 }
 
 .websearch a i {
   font-size: 24px;
   color: #eee;
-  padding: 6px 24px;
+  padding: 7px 24px 11px 24px;
   background-color: #d35266;
+  border-radius: 5px;
+  margin-left: -4px;
 }
 
 .colborder {
   border: 1px solid rgba(56, 56, 56, 0.2);
-  margin-right: 15px;
-  margin-left: 2px;
+  margin-right: 3px;
+  transition: 0.4s ease-out;
+}
+
+.colborder:hover {
+  transform: scaleY(1.08) scaleX(1.05);
+  background-color: #d35266;
+}
+
+.labelalign {
+  position: absolute;
+  bottom: 0;
+  margin-top: 24px;
 }
 
 .viewmore {
@@ -62,7 +82,7 @@ header {
 .spantext {
   color: #d35266;
   font-weight: bolder;
-  margin-left: 20px ;
+  margin-left: 20px;
 }
 
 .asideborder {
@@ -97,8 +117,24 @@ h4 {
   color: #383838;
 }
 
+.dealprices a {
+  text-decoration: none;
+  background-color: #eee;
+}
+
 .siterights ul li a {
   color: #383838;
+}
+
+input::placeholder {
+  font-size: larger;
+  font-weight: bolder;
+  padding-left: 5px;
+  width: 100%;
+}
+
+.asidepopular .maxwidth {
+width: 100%;
 }
 
 .asidepopular input::placeholder {
@@ -113,6 +149,7 @@ h4 {
 
 .searchresult {
   display: flex;
+  margin-top: 2px;
 }
 
 .foundresult {
@@ -121,34 +158,31 @@ h4 {
   padding: 3px 12px;
 }
 
+strong {
+  color: #383838;
+  font-weight: bolder;
+}
+
 .filter strong {
- color: white;
- background-color: #d35266;
+  color: white;
+  background-color: #d35266;
 }
 
 .cancel {
   display: flex;
 }
 
-.cancel i {
-  background-color: none;
+section span {
+  display: block;
+  margin: 8px 0;
+  font-size: 15px;
+  color: #888;
 }
 
 .asidepopular span {
   font-size: 12px;
   margin-top: -3px;
   margin-left: 3px;
-}
-
-strong {
-  color: #383838;
-  font-weight: bolder;
-}
-
-input::placeholder {
-  font-size: larger;
-  font-weight: bolder;
-  padding-left: 5px;
 }
 
 .searchbutton {
@@ -175,11 +209,6 @@ section {
   margin-top: 10%;
 }
 
-.dealprices a {
-  text-decoration: none;
-  background-color: #eee;
-}
-
 .navoption ul li a {
   text-decoration: none;
   color: white;
@@ -201,17 +230,11 @@ section img {
   justify-content: space-between;
 }
 
-section span {
-  display: block;
-  margin: 8px 0;
-  font-size: 15px;
-  color: #888;
-}
-
 .bestlist span {
   color: #383838;
   font-weight: 600;
   margin-left: 8px;
+  padding: 8px;
 }
 
 .hidden {
