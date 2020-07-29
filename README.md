@@ -5,7 +5,8 @@ This is a capstone project at the end of the HTML and CSS curriculum. Before thi
 After few months later; this project will be real life website which sells tech products for local people in the country where I live.
 
 
-<img src="./images/projectSS.png" alt="Screenshot">git
+<img src="./images/ss1.png" alt=" main page">
+<img src="./images/ss2.png" alt=" result page">
 
 ## Built With
 
@@ -19,7 +20,7 @@ After few months later; this project will be real life website which sells tech 
 
 ## Live Demo
 
-[Live](https://raw.githack.com/mcihadkurel/Newsweek-clone/newsweek-feature/index.html)
+[Live](https://raw.githack.com/mcihadkurel/HTML-capstone-project/capstone-feature/index.html)
 
 👤 **Author**
 
