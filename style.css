@@ -2,6 +2,7 @@
 body {
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
 }
 
 header {
@@ -73,7 +74,24 @@ h4 {
   color: #888;
 }
 
-.productname label {
+.dealname {
+  padding: 0;
+  background-color: #eee;
+  margin-right: 70px;
+}
+
+.dealname p {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.dealname span {
+  font-size: 13px;
+  margin-bottom: 20%;
+  color: #888;
+}
+
+.label {
   font-size: 18px;
   font-weight: bolder;
 }
@@ -255,4 +273,16 @@ input::placeholder {
   width: 128px;
   height: 40px;
   margin: 0 1em;
+}
+
+@media (min-width: 769px) {
+
+}
+
+
+@media (max-width: 768px) {
+  .customer-service h3,
+  .customer-service p {
+    display: none;
+  }
 }
