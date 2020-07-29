@@ -35,7 +35,7 @@ header {
 .websearch a i {
   font-size: 24px;
   color: #eee;
-  padding: 7px 24px 11px 24px;
+  padding: 7px 24px 10px 24px;
   background-color: #d35266;
   border-radius: 5px;
   margin-left: -4px;
@@ -50,6 +50,7 @@ header {
 .colborder:hover {
   transform: scaleY(1.08) scaleX(1.05);
   background-color: #d35266;
+  border-radius: 3px;
 }
 
 .labelalign {
@@ -133,6 +134,8 @@ input::placeholder {
   width: 100%;
 }
 
+input[type='checkbox'], input[type='radio'] { filter: grayscale(1) }
+
 .asidepopular .maxwidth {
 width: 100%;
 }
@@ -191,6 +194,7 @@ section span {
   border: 2px solid #d35266;
   align-items: center;
   font-weight: bolder;
+  margin-bottom: 3px;
 }
 
 .navoption ul {
