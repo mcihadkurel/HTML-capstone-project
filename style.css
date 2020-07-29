@@ -275,14 +275,22 @@ input::placeholder {
   margin: 0 1em;
 }
 
-@media (min-width: 769px) {
-
-}
-
-
 @media (max-width: 768px) {
   .customer-service h3,
   .customer-service p {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .secmargin {
+    margin-top: 100%;
+  }
+
+  .navoption,
+  .websearch input {
     display: none;
   }
 }

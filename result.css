@@ -249,3 +249,23 @@ section img {
 .bestlist {
   border: 2px solid #d35266;
 }
+
+@media (max-width: 768px) {
+  .customer-service h3,
+  .customer-service p {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .secmargin {
+    margin-top: 100%;
+  }
+
+  .navoption,
+  .websearch input {
+    display: none;
+  }
+}
