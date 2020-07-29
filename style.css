@@ -3,6 +3,7 @@ body {
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
   margin-top: 1%;
 }
@@ -149,12 +150,12 @@ h4 {
   position: absolute;
   bottom: 54px;
   color: #888;
+  font-weight: bolder;
 }
 
 .coverimg span:hover {
   color: #383838;
 }
-
 
 progress {
   border: none;
@@ -165,10 +166,6 @@ progress {
 
 progress::-webkit-progress-value {
   background: #d35266;
-}
-
-progress::-moz-progress-bar {
-  background: lightcolor;
 }
 
 input::placeholder {
@@ -225,8 +222,10 @@ input::placeholder {
   margin-top: -12px;
 }
 
-.phoneprogress label {
+.phoneprogress p {
   font-size: 13px;
+  margin-bottom: -5px;
+  color: #888;
 }
 
 .phoneprogress progress {

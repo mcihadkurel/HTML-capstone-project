@@ -134,10 +134,11 @@ input::placeholder {
   width: 100%;
 }
 
-input[type='checkbox'], input[type='radio'] { filter: grayscale(1) }
+input[type='checkbox'],
+input[type='radio'] { filter: grayscale(1); }
 
 .asidepopular .maxwidth {
-width: 100%;
+  width: 100%;
 }
 
 .asidepopular input::placeholder {
