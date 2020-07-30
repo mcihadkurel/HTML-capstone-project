@@ -27,9 +27,9 @@ header {
 }
 
 .bestlist i {
-  margin-left: 50px;
+  margin-left: 10px;
   margin-right: 8px;
-  padding: 8px;
+  padding: 3px;
 }
 
 .websearch a i {
@@ -76,7 +76,7 @@ header {
 
 .specialchoise {
   background-color: #383838;
-  width: 14%;
+
   padding: 0;
 }
 
@@ -154,6 +154,8 @@ input[type='radio'] { filter: grayscale(1); }
 .searchresult {
   display: flex;
   margin-top: 2px;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .foundresult {
@@ -235,6 +237,10 @@ section img {
   justify-content: space-between;
 }
 
+.item {
+  flex: 25%
+}
+
 .bestlist span {
   color: #383838;
   font-weight: 600;
@@ -248,6 +254,12 @@ section img {
 
 .bestlist {
   border: 2px solid #d35266;
+}
+
+@media (max-width: 991px) {
+  .item {
+    flex: 50%
+  }
 }
 
 @media (max-width: 768px) {
@@ -267,5 +279,8 @@ section img {
   .navoption,
   .websearch input {
     display: none;
+  }
+  .item {
+    flex: 100%
   }
 }

@@ -35,9 +35,9 @@ header {
 }
 
 .websearch a i {
-  font-size: 24px;
+  font-size: 15px;
   color: #eee;
-  padding: 7px 24px 10px 24px;
+  padding: 7px 12px 10px 12px;
   background-color: #d35266;
   border-radius: 5px;
   margin-left: -4px;
@@ -159,17 +159,17 @@ h4 {
   font-weight: bolder;
 }
 
-.coverimg {
-  position: absolute;
+img{
+  width: 100%;
 }
 
-.coverimg span {
+/* .coverimg span {
   font-size: 45px;
   position: absolute;
   bottom: 54px;
   color: #888;
   font-weight: bolder;
-}
+} */
 
 .coverimg span:hover {
   color: #383838;
@@ -270,9 +270,7 @@ input::placeholder {
 }
 
 .brandimage img {
-  width: 128px;
-  height: 40px;
-  margin: 0 1em;
+  width: 70px;
 }
 
 @media (max-width: 768px) {
