@@ -159,8 +159,13 @@ h4 {
   font-weight: bolder;
 }
 
-img{
+img {
   width: 100%;
+}
+
+h1 {
+  color: #383838;
+  text-decoration: none;
 }
 
 .coverimg a h1:hover {
@@ -172,11 +177,6 @@ progress {
   height: 8px;
   background: crimson;
   color: #383838;
-}
-
-h1 {
-  color: #383838;
-  text-decoration: none;
 }
 
 progress::-webkit-progress-value {
@@ -277,7 +277,6 @@ input::placeholder {
     padding: 12px 24px 12px 24px;
     background-color: #d35266;
     border-radius: 5px;
-    
   }
 }
 

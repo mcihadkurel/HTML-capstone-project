@@ -76,7 +76,6 @@ header {
 
 .specialchoise {
   background-color: #383838;
-
   padding: 0;
 }
 
@@ -154,7 +153,6 @@ input[type='radio'] { filter: grayscale(1); }
 .searchresult {
   display: flex;
   margin-top: 2px;
- 
 }
 
 .foundresult {
@@ -256,7 +254,6 @@ section img {
     padding: 12px 24px 12px 24px;
     background-color: #d35266;
     border-radius: 5px;
-    
   }
 }
 
@@ -278,7 +275,8 @@ section img {
   .websearch input {
     display: none;
   }
+
   .item {
-    flex: 100%
+    flex: 100%;
   }
 }
