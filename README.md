@@ -8,6 +8,15 @@ After few months later; this project will be real life website which sells tech 
 <img src="./images/ss1.png" alt=" main page">
 <img src="./images/ss2.png" alt=" result page">
 
+## Project Description
+
+- İn the main navbar you can look in categories directly what you need
+- This website based on shopping for electronics. But also you can find some personal products
+- İn " Last Added Phones " section there is a progress bar which shows you best price&perform product in this website.
+- Result page has filter. This filter eleminates useless products for you in showcase and you can find best deal for you.
+- Each produch has transition hover efect. This increases your focus on the item.
+- Both page has 'View More' link. When you click this link; other related items appears on the page.
+
 ## Built With
 
 - Bootstrap grid system
@@ -20,9 +29,17 @@ After few months later; this project will be real life website which sells tech 
 
 ## Live Demo
 
-[Live](https://raw.githack.com/mcihadkurel/HTML-capstone-project/capstone-feature/index.html)
+[Live](https://rawcdn.githack.com/mcihadkurel/HTML-capstone-project/0c74ea753cb9884a0bca1763a298017b3dcea5a9/index.html)
 
-👤 **Author**
+## Instructions
+** For run this project **
+- Clone this repository on your desktop
+- Make sure you are in right folder to check code
+- Click index.html and open it in live browser
+- You can wiew this project in any browser
+
+
+👤 **Muhammed Cihad Kurel**
 
 - Github: [@mcihadkurel](https://github.com/mcihadkurel)
 - Twitter: [@mece_ka](https://twitter.com/mece_ka)
