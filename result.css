@@ -154,8 +154,7 @@ input[type='radio'] { filter: grayscale(1); }
 .searchresult {
   display: flex;
   margin-top: 2px;
-  align-items: flex-end;
-  justify-content: center;
+ 
 }
 
 .foundresult {
@@ -227,18 +226,12 @@ section img {
 }
 
 .brandimage img {
-  width: 128px;
-  height: 40px;
-  margin: 0 1em;
+  width: 70px;
 }
 
 .deallist {
   display: flex;
   justify-content: space-between;
-}
-
-.item {
-  flex: 25%
 }
 
 .bestlist span {

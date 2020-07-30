@@ -163,15 +163,7 @@ img{
   width: 100%;
 }
 
-/* .coverimg span {
-  font-size: 45px;
-  position: absolute;
-  bottom: 54px;
-  color: #888;
-  font-weight: bolder;
-} */
-
-.coverimg span:hover {
+.coverimg a h1:hover {
   color: #383838;
 }
 
@@ -184,6 +176,7 @@ progress {
 
 h1 {
   color: #383838;
+  text-decoration: none;
 }
 
 progress::-webkit-progress-value {
