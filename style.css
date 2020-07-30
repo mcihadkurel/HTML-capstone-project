@@ -182,6 +182,10 @@ progress {
   color: #383838;
 }
 
+h1 {
+  color: #383838;
+}
+
 progress::-webkit-progress-value {
   background: #d35266;
 }
@@ -271,6 +275,17 @@ input::placeholder {
 
 .brandimage img {
   width: 70px;
+}
+
+@media (min-width: 991px) {
+  .websearch a i {
+    font-size: 15px;
+    color: #eee;
+    padding: 12px 24px 12px 24px;
+    background-color: #d35266;
+    border-radius: 5px;
+    
+  }
 }
 
 @media (max-width: 768px) {
