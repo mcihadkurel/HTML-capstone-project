@@ -89,8 +89,18 @@ header {
   border: 1px solid rgba(56, 56, 56, 0.2);
 }
 
-h4 {
+ h4 {
   font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+  margin: 3px 0 10px 0;
+  background-color: #383838;
+  color: #eee;
+}
+
+h1 {
+  font-size: 26px;
   display: flex;
   flex-wrap: wrap;
   padding: 5px 10px;
