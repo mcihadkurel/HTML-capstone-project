@@ -29,7 +29,7 @@ After few months later; this project will be real life website which sells tech 
 
 ## Live Demo
 
-[Live](https://rawcdn.githack.com/mcihadkurel/HTML-capstone-project/0c74ea753cb9884a0bca1763a298017b3dcea5a9/index.html)
+[Live](https://rawcdn.githack.com/mcihadkurel/HTML-capstone-project/023bc227a993cf0af7328578d33da35428511119/index.html)
 
 ## Instructions
 ** For run this project **
