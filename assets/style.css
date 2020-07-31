@@ -297,7 +297,7 @@ input::placeholder {
     border-radius: 5px;
     border: 2px solid #d35266;
     width: 320px;
-    height: 42px;
+    height: 40px;
     position: relative;
     bottom: 3px;
   }
@@ -307,7 +307,7 @@ input::placeholder {
   .websearch a i {
     font-size: 15px;
     color: #eee;
-    padding: 12px 24px 12px 24px;
+    padding: 15px 24px 10px 24px;
     background-color: #d35266;
     border-radius: 5px;
     margin-bottom: 3px;
@@ -329,5 +329,4 @@ input::placeholder {
   .secmargin {
     margin-top: 100%;
   }
-
 }

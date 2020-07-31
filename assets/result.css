@@ -15,7 +15,7 @@ header {
   border-radius: 5px;
   border: 2px solid #d35266;
   width: 665px;
-  height: 42px;
+  height: 40px;
   position: relative;
   bottom: 3px;
 }
@@ -181,10 +181,6 @@ strong {
   background-color: #d35266;
 }
 
-.cancel {
-  display: flex;
-}
-
 section span {
   display: block;
   margin: 8px 0;
@@ -293,7 +289,7 @@ section img {
   .websearch a i {
     font-size: 15px;
     color: #eee;
-    padding: 12px 24px 12px 24px;
+    padding: 15px 24px 10px 24px;
     background-color: #d35266;
     border-radius: 5px;
     margin-bottom: 3px;
@@ -302,7 +298,9 @@ section img {
 
 @media (max-width: 768px) {
   .customer-service h3,
-  .customer-service p {
+  .customer-service p,
+  .navoption,
+  .websearch input {
     display: none;
   }
 
@@ -312,10 +310,5 @@ section img {
 
   .secmargin {
     margin-top: 100%;
-  }
-
-  .navoption,
-  .websearch input {
-    display: none;
   }
 }
