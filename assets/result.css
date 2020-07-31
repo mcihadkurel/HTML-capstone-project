@@ -287,7 +287,6 @@ section img {
     position: relative;
     bottom: 3px;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -299,7 +298,6 @@ section img {
     border-radius: 5px;
     margin-bottom: 3px;
   }
-
 }
 
 @media (max-width: 768px) {

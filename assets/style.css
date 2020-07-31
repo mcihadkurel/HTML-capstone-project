@@ -1,7 +1,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: Arial, Helvetica, sans-serif;  
+  font-family: Arial, Helvetica, sans-serif;
   width: 100%;
 }
 
@@ -245,7 +245,7 @@ input::placeholder {
 }
 
 .phoneprogress progress {
-  width: 80px;
+  width: 60px;
 }
 
 .sidebardeals ul li a i {
@@ -301,7 +301,6 @@ input::placeholder {
     position: relative;
     bottom: 3px;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -313,7 +312,6 @@ input::placeholder {
     border-radius: 5px;
     margin-bottom: 3px;
   }
-
 }
 
 @media (max-width: 768px) {
