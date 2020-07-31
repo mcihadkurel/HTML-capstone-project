@@ -1,0 +1,335 @@
+
+body {
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+header {
+  margin-top: 1%;
+}
+
+.navbrand {
+  display: flex;
+}
+
+.websearch input {
+  border-radius: 5px;
+  border: 2px solid #d35266;
+  width: 665px;
+  height: 42px;
+  position: relative;
+  bottom: 3px;
+}
+
+.searchbutton i {
+  font-size: 24px;
+  color: #d35266;
+  padding: 0 6px;
+}
+
+.customer-service i {
+  font-size: 52px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.websearch a i {
+  font-size: 15px;
+  color: #eee;
+  padding: 7px 12px 10px 12px;
+  background-color: #d35266;
+  border-radius: 5px;
+  margin-left: -4px;
+}
+
+.headcolor {
+  background-color: #383838;
+}
+
+h4 {
+  padding: 5px;
+  color: #eee;
+  height: 38px;
+}
+
+.phoneprogress a {
+  text-decoration: none;
+  color: #888;
+}
+
+.productname {
+  padding: 0;
+  background-color: #eee;
+}
+
+.productname p {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.productname span {
+  font-size: 13px;
+  margin-bottom: 20%;
+  color: #888;
+}
+
+.dealname {
+  padding: 0;
+  background-color: #eee;
+  margin-right: 70px;
+}
+
+.dealname p {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.dealname span {
+  font-size: 13px;
+  margin-bottom: 20%;
+  color: #888;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.viewmore {
+  border-radius: 22px;
+  width: 130px;
+  height: 30px;
+  background-color: #d35266;
+  margin: auto;
+}
+
+.viewmore a {
+  text-decoration: none;
+  color: #eee;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.customer-service {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.customer-service h3 {
+  font-size: 18px;
+}
+
+.siterights {
+  text-align: center;
+  font-size: 13px;
+  background-color: #d35266;
+  height: 80px;
+}
+
+.siterights ul {
+  display: flex;
+  justify-content: center;
+}
+
+.siterights ul li {
+  list-style: none;
+  padding: 0 8px;
+  color: #383838;
+}
+
+.progreswrap a {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.siterights ul li a {
+  color: #383838;
+}
+
+.customer-service p {
+  color: #888;
+  font-size: 13px;
+  padding: 0 15px;
+}
+
+.phoneprogress span {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  color: #383838;
+  text-decoration: none;
+}
+
+.coverimg a h1:hover {
+  color: #383838;
+}
+
+progress {
+  border: none;
+  height: 8px;
+  background: crimson;
+  color: #383838;
+}
+
+progress::-webkit-progress-value {
+  background: #d35266;
+}
+
+input::placeholder {
+  font-size: larger;
+  font-weight: bolder;
+  padding-left: 5px;
+}
+
+.searchbutton {
+  display: flex;
+  border-radius: 5px;
+  border: 2px solid #d35266;
+  align-items: center;
+  font-weight: bolder;
+  margin-bottom: 3px;
+}
+
+.navoption ul {
+  display: flex;
+  background-color: #d35266;
+  width: 100%;
+}
+
+.navoption ul li {
+  list-style: none;
+  color: white;
+  padding: 12px 16px;
+  border-right: 3px solid #eee;
+}
+
+.navoption ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+.sidebardeals ul li {
+  list-style: none;
+  margin-bottom: 1%;
+  background-color: #383838;
+  width: 80%;
+}
+
+.phoneimg {
+  padding: 0;
+}
+
+.phoneprogress {
+  padding: 0;
+  margin: 0 8px;
+  background-color: #eee;
+}
+
+.rowmargin {
+  margin-top: -12px;
+}
+
+.phoneprogress p {
+  font-size: 13px;
+  margin-bottom: -5px;
+  color: #888;
+}
+
+.phoneprogress progress {
+  width: 60px;
+}
+
+.sidebardeals ul li a i {
+  font-size: 18px;
+  padding: 8px;
+  background-color: #d35266;
+  color: #eee;
+  border-radius: 50%;
+  transition: transform 1s;
+}
+
+.sidebardeals ul li a i:hover {
+  transform: rotate(360deg);
+  background: none;
+}
+
+.sidebardeals ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.brandimage img {
+  width: 70px;
+}
+
+@media (max-width: 1200px) {
+  .websearch input {
+    border-radius: 5px;
+    border: 2px solid #d35266;
+    width: 520px;
+    height: 42px;
+    position: relative;
+    bottom: 3px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navoption ul {
+    display: flex;
+    background-color: #d35266;
+    font-size: 13px;
+  }
+
+  .navoption ul li {
+    padding: 6px 9px;
+  }
+
+  .websearch input {
+    border-radius: 5px;
+    border: 2px solid #d35266;
+    width: 320px;
+    height: 42px;
+    position: relative;
+    bottom: 3px;
+  }
+}
+
+@media (min-width: 768px) {
+  .websearch a i {
+    font-size: 15px;
+    color: #eee;
+    padding: 12px 24px 12px 24px;
+    background-color: #d35266;
+    border-radius: 5px;
+    margin-bottom: 3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-service h3,
+  .customer-service p {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .secmargin {
+    margin-top: 100%;
+  }
+
+  .navoption,
+  .websearch input {
+    display: none;
+  }
+}

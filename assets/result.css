@@ -1,0 +1,321 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  margin-top: 1%;
+}
+
+.navbrand {
+  display: flex;
+}
+
+.websearch input {
+  border-radius: 5px;
+  border: 2px solid #d35266;
+  width: 665px;
+  height: 42px;
+  position: relative;
+  bottom: 3px;
+}
+
+.searchbutton i {
+  font-size: 24px;
+  color: #d35266;
+  padding: 0 6px;
+}
+
+.bestlist i {
+  margin-left: 10px;
+  margin-right: 8px;
+  padding: 3px;
+}
+
+.websearch a i {
+  font-size: 15px;
+  color: #eee;
+  padding: 7px 12px 10px 12px;
+  background-color: #d35266;
+  border-radius: 5px;
+  margin-left: -4px;
+}
+
+.colborder {
+  border: 1px solid rgba(56, 56, 56, 0.2);
+  margin-right: 3px;
+  transition: 0.4s ease-out;
+}
+
+.colborder:hover {
+  transform: scaleY(1.08) scaleX(1.05);
+  background-color: #d35266;
+  border-radius: 3px;
+}
+
+.labelalign {
+  position: absolute;
+  bottom: 0;
+  margin-top: 24px;
+}
+
+.viewmore {
+  border-radius: 22px;
+  width: 130px;
+  height: 30px;
+  background-color: #d35266;
+  margin: auto;
+}
+
+.viewmore a {
+  text-decoration: none;
+  color: #eee;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.specialchoise {
+  background-color: #383838;
+  padding: 0;
+}
+
+.spantext {
+  color: #d35266;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+.asideborder {
+  border: 1px solid rgba(56, 56, 56, 0.2);
+}
+
+h4 {
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+  margin: 3px 0 10px 0;
+  background-color: #383838;
+  color: #eee;
+}
+
+h1 {
+  font-size: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+  margin: 3px 0 10px 0;
+  background-color: #383838;
+  color: #eee;
+}
+
+.siterights {
+  text-align: center;
+  font-size: 13px;
+  background-color: #d35266;
+  height: 80px;
+}
+
+.siterights ul {
+  display: flex;
+  justify-content: center;
+}
+
+.siterights ul li {
+  list-style: none;
+  padding: 0 8px;
+  color: #383838;
+}
+
+.dealprices a {
+  text-decoration: none;
+  background-color: #eee;
+}
+
+.siterights ul li a {
+  color: #383838;
+}
+
+input::placeholder {
+  font-size: larger;
+  font-weight: bolder;
+  padding-left: 5px;
+  width: 100%;
+}
+
+input[type='checkbox'],
+input[type='radio'] { filter: grayscale(1); }
+
+.asidepopular .maxwidth {
+  width: 100%;
+}
+
+.asidepopular input::placeholder {
+  font-size: 12px;
+  padding: 7px 10px;
+}
+
+.asideinput {
+  display: flex;
+  margin-left: 5px;
+}
+
+.searchresult {
+  display: flex;
+  margin-top: 2px;
+}
+
+.foundresult {
+  font-size: 13px;
+  font-weight: bolder;
+  padding: 3px 12px;
+}
+
+strong {
+  color: #383838;
+  font-weight: bolder;
+}
+
+.filter strong {
+  color: white;
+  background-color: #d35266;
+}
+
+.cancel {
+  display: flex;
+}
+
+section span {
+  display: block;
+  margin: 8px 0;
+  font-size: 15px;
+  color: #888;
+}
+
+.asidepopular span {
+  font-size: 12px;
+  margin-top: -3px;
+  margin-left: 3px;
+}
+
+.searchbutton {
+  display: flex;
+  border-radius: 5px;
+  border: 2px solid #d35266;
+  align-items: center;
+  font-weight: bolder;
+  margin-bottom: 3px;
+}
+
+.navoption ul {
+  display: flex;
+  background-color: #d35266;
+}
+
+.navoption ul li {
+  list-style: none;
+  color: white;
+  padding: 12px 16px;
+  border-right: 3px solid #eee;
+}
+
+section {
+  margin-top: 10%;
+}
+
+.navoption ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+section img {
+  padding: 12px 0;
+}
+
+.brandimage img {
+  width: 70px;
+}
+
+.deallist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bestlist span {
+  color: #383838;
+  font-weight: 600;
+  margin-left: 8px;
+  padding: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.bestlist {
+  border: 2px solid #d35266;
+}
+
+@media (max-width: 1200px) {
+  .websearch input {
+    border-radius: 5px;
+    border: 2px solid #d35266;
+    width: 520px;
+    height: 42px;
+    position: relative;
+    bottom: 3px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navoption ul {
+    display: flex;
+    background-color: #d35266;
+    font-size: 13px;
+  }
+
+  .navoption ul li {
+    padding: 6px 9px;
+  }
+
+  .websearch input {
+    border-radius: 5px;
+    border: 2px solid #d35266;
+    width: 320px;
+    height: 42px;
+    position: relative;
+    bottom: 3px;
+  }
+}
+
+@media (min-width: 768px) {
+  .websearch a i {
+    font-size: 15px;
+    color: #eee;
+    padding: 12px 24px 12px 24px;
+    background-color: #d35266;
+    border-radius: 5px;
+    margin-bottom: 3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-service h3,
+  .customer-service p {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .secmargin {
+    margin-top: 100%;
+  }
+
+  .navoption,
+  .websearch input {
+    display: none;
+  }
+}
